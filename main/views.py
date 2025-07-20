@@ -15,4 +15,4 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse(b"About page")
+    return render(request, "main/about.html")
