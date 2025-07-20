@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" >
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>{{ content }}</h1>
+
+        {% if is_authenticated %}
+            {% for x in list %}
+                <h2>{{ x }}</h2>
+            {% endfor %}
+            <h2>{{ dict.first }}</h2>
+        {% endif %}
+    </body>
+</html>

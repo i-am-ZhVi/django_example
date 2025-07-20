@@ -1,0 +1,13 @@
+#python stuff
+.venv
+.ropeproject
+__pycache__
+
+#ide stuff
+.zed
+.idea
+
+
+#django stuff
+db.sqlite3
+media/
