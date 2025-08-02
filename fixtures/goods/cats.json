@@ -2,7 +2,7 @@
   {
     "model": "goods.categories",
     "pk": 4,
-    "fields": { "name": "Все товары", "slug": "vse-tovary" }
+    "fields": { "name": "Все товары", "slug": "all" }
   },
   {
     "model": "goods.categories",
